@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("image/balloon.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 100vh;
+}
+nav .com-name{
+    color: White;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Orelega One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Wet Paint', cursive;
+    padding-left: 25px;
+}
+nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px double white;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 15px;  
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px;
+}
+nav ul li a:hover,
+nav ul li a.active{
+    background-color: rgb(222, 238, 5);
+    color: black;
+    padding: 15px;
+    transition: 1s;
+    border-radius: 7px;
+}
+.search{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 12px;
+    padding: 3px;
+}
+.search i{
+    padding-right: 7px;
+}
+.sre{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+.sre:focus{
+    outline: none;
+}
+.mid-part{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.button{
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 30px;
+}
+.button:hover{
+    background-color: brown;
+    border-radius: 12px;
+    transition: 2s;
+}
+.top-img{
+    width: 400px;
+    align-items: center;
+    transition: 1s;
+    padding-top: 40px;
+}
+.top-img:hover{
+    transition: 3s;
+    transform: scale(1.5);
+}
+h1{
+    font-size: 50px;
+}
